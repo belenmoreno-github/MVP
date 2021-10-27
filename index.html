@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CityScapes Landing Page Responsive HTML Template</title>
+  <style>
+/* If you wish to remove the astonish.js file, then also be sure to remove these styles. */
+     .astonish {
+          visibility: visible;
+      }
+
+      @media (min-width: 768px) {
+          .astonish {
+               visibility: hidden;
+           }
+           .animated {
+                visibility: visible;
+           }
+       }
+</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/css/styles.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Main Navigation -->
+<nav class="main-nav" id="main-nav">
+ <div class="content-wrapper-sm">
+  <a href="#" class="navbar-brand">Ida y Vuelta</a>
+  <div id="menu-button">
+   <div class="bar1"></div>
+   <div class="bar2"></div>
+   <div class="bar3"></div>
+  </div>
+  <ul class="nav-links">
+   <li><a href="#about">Acerca</a></li>
+   <li><a href="#reserve">Destinos</a></li>
+   <li><a href="#contact">Contacto</a></li>
+  </ul>
+ </div>
+</nav>
+
+<!-- Main header -->
+<header>
+ <!-- First replaceble image -->
+ <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/88c9b44e3def10ae253dd8d44b717cfa78cca42d/img/city.png" alt="City 1">
+ <div class="wrapper astonish animated fadeInDown">
+  <h1><strong>Ida y Vuelta </strong></h1>
+  <h2>Dinos dónde,
+    y nosotros te llevamos</h2>
+ </div>
+</header>
+
+<!-- Main content -->
+<main>
+ <div class="content-wrapper" id="about">
+  <!-- second replaceble image -->
+  <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/img/city2.png" alt="City 2">
+  <div class="grid">
+   <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
+    <h2 class="section-title">Acerca de Ida y vuelta</h2>
+    <p>Ida y Vuelta surge como una iniciativa por parte de unos estudiantes universitarios para la organización del viaje de fin de etapa universitaria.</p>
+    <p>Somos unos estudiantes del grado de Inteligencia de los Negocios de la Facultad de Ciencias Económicas en la Universidad CEU San Pablo de Madrid.</p>
+    <p>Nuestra intención es descargaros de todo el estrés y ajetreo que supone la organización de un vijae de este calibre, y brindaros con la mejor experiencia posible para cerrar vuestra etapa universitaria.</p>
+    </div>
+  </div>
+ </div>
+
+ <div id="reserve" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
+  <h2 class="section-title">Explora nuevos destinos</h2>
+  <p>Ida y vuelta conseguirá que disfrutes del mejeor viaje posible en cualqueira de los siguientes destinos</p>
+   <a href="../Destinos general/dist/index.html" class="btn btn-outline-purple">Destinos</a>
+ </div>
+
+ <div class="content-wrapper" id="contact">
+  <!-- Third replaceble image -->
+  <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/img/city3.png" alt="City 3">
+
+  <!-- Custom form, important note: you will need additional code in order to make this form work -->
+  <form class="contact-form astonish" action="#" method="post" data-animation="fadeInRight">
+   <h2 class="section-title">Contacta con nosotros</h2>
+   <div class="grid">
+    <div class="grid-col-sm-12 grid-col-md-6">
+     <div class="form-group">
+      <input type="text" name="firstName" required>
+      <label for="firstName">Nombre:</label>
+     </div>
+    </div>
+    <div class="grid-col-sm-12 grid-col-md-6">
+     <div class="form-group">
+      <input type="text" name="lastName" required>
+      <label for="lasttName">Apellido:</label>
+     </div>
+    </div>
+    <div class="grid-col-sm-12">
+     <div class="form-group">
+      <input type="text" name="email" required>
+      <label for="email">Email:</label>
+     </div>
+    </div>
+    <div class="grid-col-sm-12">
+     <div class="form-group">
+      <textarea name="message" required></textarea>
+      <label for="message">Mensaje:</label>
+     </div>
+    </div>
+   </div>
+   <input class="btn btn-outline-teal" type="submit" value="Enviar">
+  </form>
+ </div>
+
+ <!-- This is an embedded Google map, this is easily customizable especially if you get a Google API key, this will allow for more customizable features. -->
+ <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d81584.50435706123!2d-80.8378430874413!3d35.23358937843391!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1514142608486" frameborder="0" style="border:0" allowfullscreen></iframe>
+</main>
+
+<!-- Main footer -->
+<footer>
+ <div class="content-wrapper-sm display-flex-between">
+  <!-- Easily replaceble copyright information -->
+  <small>Your copyright 2017.</small>
+
+  <!-- Make sure to edit the links so that they go to your social media. -->
+  <div class="social-links">
+   <ul>
+    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+   </ul>
+  </div>
+ </div>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/astonish.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/menu.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/nav.js'></script>
+<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/scroll.js'></script>
+</body>
+</html>
