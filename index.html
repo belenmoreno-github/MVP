@@ -17,6 +17,29 @@
                 visibility: visible;
            }
        }
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: transparent; 
+        color:  #fffefe; 
+        border: 2px solid #fbfbfb;
+        border-radius: 12px;
+      }
+
+      .button:hover {
+        background-color: #fdfdfd;
+        color: rgb(10, 10, 10);
+}
+
 </style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
@@ -59,7 +82,7 @@
   <!-- second replaceble image -->
   <img class="img-absolute" src="https://raw.githubusercontent.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/img/city2.png" alt="City 2">
   <div class="grid">
-   <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
+   <div class="grid-col-sm-12 grid-col-md-7 astonish" data-animation="fadeInLeft">
     <h2 class="section-title">Acerca de Ida y vuelta</h2>
     <p>Ida y Vuelta surge como una iniciativa por parte de unos estudiantes universitarios para la organización del viaje de fin de etapa universitaria.</p>
     <p>Somos unos estudiantes del grado de Inteligencia de los Negocios de la Facultad de Ciencias Económicas en la Universidad CEU San Pablo de Madrid.</p>
@@ -68,10 +91,18 @@
   </div>
  </div>
 
+
  <div id="reserve" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
   <h2 class="section-title">Explora nuevos destinos</h2>
-  <p>Ida y vuelta conseguirá que disfrutes del mejor viaje posible en cualqueira de los siguientes destinos</p>
-   <a href="Destinos general/dist/index.html" class="btn btn-outline-purple">Destinos</a>
+  <p>Ida y vuelta conseguirá que disfrutes del mejor viaje posible en cualqueira de los siguientes destinos, ofreciéndote además los siguientes servicios: </p>
+  <p>
+    -	Todas las reuniones necesarias para resolver cualquier duda <br>
+    -	Pagos flexibles, individuales y en cómodos plazos <br>
+    -	Contrato de viaje firmado con precio cerrado sin sorpresas <br>
+    -	Posibilidad de uniros a otro grupo de universitarios que viaje a vuestro mismo destino para conseguir mayores ventajas (open groups) <br>
+    -	Acceso identificado online, donde podrás consultar toda la info del viaje<br>
+  </p>
+   <a href="Destinos general/dist/index.html" class="button">Destinos</a>
  </div>
 
  <div class="content-wrapper" id="contact">
@@ -125,8 +156,7 @@
   <div class="social-links">
    <ul>
     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    <li><a href="#"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
+
     <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
    </ul>
   </div>
