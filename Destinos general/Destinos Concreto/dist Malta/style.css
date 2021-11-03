@@ -60,7 +60,7 @@ nav .navbar-brand {
 	background: linear-gradient( to bottom, 
 		rgba(0,0,0, .2),
 		rgba(0,0,0,.3)),
-        url('../Malta2.jfif');
+        url('../malta2.jfif');
 	height: 600px;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -132,7 +132,7 @@ nav .navbar-brand {
     background: linear-gradient( to bottom, 
 		rgba(0,0,0, .4),
 		rgba(0,0,0,.6)),
-        url('../malta1.jfif');
+        url('../Malta1.jfif');
     color: #FFF;
     text-align: center;
 	padding-top: 30px;
